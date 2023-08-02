@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Push.mp3-7659f2b72070fad22fc994032b1fe9df.mp3str"
+
+[deps]
+
+source_file="res://AudioClip/Push.mp3"
+dest_files=[ "res://.import/Push.mp3-7659f2b72070fad22fc994032b1fe9df.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

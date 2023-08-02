@@ -1,0 +1,23 @@
+{
+  "deviceId":"",
+  "control":"",
+  "category":"Smell",
+    "description": 
+      {
+        "properties":
+          {
+            "type":"",
+            "measure":"",
+            "unit":"",
+            "quantity":null
+          },
+        "pattern":
+          {
+            "type": "custom",
+            "LengthMs": null
+          }
+      }
+}
+     
+
+    

@@ -1,0 +1,72 @@
+{
+    "effect": [
+        {
+            "deviceId": "fan",
+            "control": "btn_1",
+            "category": "Haptic",
+            "description": {
+                "properties": {
+                    "type": "wind",
+                    "measure": "8s",
+                    "unit": "level",
+                    "quantity": 3
+                },
+                "pattern": {
+                    "type": "custom",
+                    "LengthMs": 1000
+                }
+            }
+        },
+        {
+            "deviceId": "fan",
+            "control": "btn_2",
+            "category": "Haptic",
+            "description": {
+                "properties": {
+                    "type": "wind",
+                    "measure": "8s",
+                    "unit": "level",
+                    "quantity": 3
+                },
+                "pattern": {
+                    "type": "custom",
+                    "LengthMs": 1000
+                }
+            }
+        },
+        {
+            "deviceId": "fan",
+            "control": "btn_3",
+            "category": "Haptic",
+            "description": {
+                "properties": {
+                    "type": "wind",
+                    "measure": "8s",
+                    "unit": "level",
+                    "quantity": 3
+                },
+                "pattern": {
+                    "type": "custom",
+                    "LengthMs": 1000
+                }
+            }
+        },
+        {
+            "deviceId": "fan",
+            "control": "btn_off",
+            "category": "Haptic",
+            "description": {
+                "properties": {
+                    "type": "wind",
+                    "measure": "8s",
+                    "unit": "level",
+                    "quantity": 3
+                },
+                "pattern": {
+                    "type": "custom",
+                    "LengthMs": 1000
+                }
+            }
+        }
+    ]
+}

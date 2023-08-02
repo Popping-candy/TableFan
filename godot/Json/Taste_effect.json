@@ -1,0 +1,21 @@
+{
+    "deviceId":"",
+    "control":"",
+    "category":"Taste",
+      "description": 
+        {
+          "properties":
+            {
+              "type":"",
+              "measure":"",
+              "unit":"",
+              "quantity":null
+            },
+          "pattern":
+            {
+              "type": "custom",
+              "LengthMs": null
+            }
+        }
+  }
+       

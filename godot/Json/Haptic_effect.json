@@ -1,0 +1,21 @@
+{
+  "deviceId":"",
+  "control":"",
+  "category":"Haptic",
+    "description": 
+      {
+        "properties":{
+            "type":"",
+            "measure":"",
+            "unit":"",
+            "quantity":null
+          },
+        "pattern":{
+            "type": "custom",
+            "LengthMs": null
+          }
+      }
+}
+     
+
+    
