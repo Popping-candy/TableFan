@@ -47,6 +47,7 @@ app.get('/createDeviceTable', async(req,res)=>{
                 let device = new Device(req.body.device[i])
                 await device.save()
             } 
+            console.log('create data successfully')
             res.send('create data successfully')
         }
     })  

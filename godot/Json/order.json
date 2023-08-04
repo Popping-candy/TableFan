@@ -3,17 +3,17 @@
         {
             "name": "fan",
             "category": "Haptic",
+            "status": "btn_off"
+        },
+        {
+            "name": "fan",
+            "category": "Haptic",
             "status": "btn_1"
         },
         {
             "name": "fan",
             "category": "Haptic",
             "status": "btn_2"
-        },
-        {
-            "name": "fan",
-            "category": "Haptic",
-            "status": "btn_3"
         },
         {
             "name": "fan",

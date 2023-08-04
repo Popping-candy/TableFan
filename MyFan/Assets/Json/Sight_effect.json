@@ -1,0 +1,24 @@
+{
+  "deviceId":"",
+  "control":"",
+  "category":"Sight",
+    "description": 
+      {
+        "properties":
+          {
+            "type":"",
+            "id":"",
+            "measure":"",
+            "unit":"",
+            "quantity":null
+          },
+        "pattern":
+          {
+            "type": "custom",
+            "LengthMs": null
+          }
+      }
+}
+     
+
+    

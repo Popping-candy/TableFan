@@ -1,0 +1,54 @@
+{
+    "device":[
+        {
+            "id": 1,
+            "category":"Sight",
+            "name": "LED-light"
+        },
+        {
+            "id": 2,
+            "category":"Sight",
+            "name": "VR-Headset"
+        },
+        {
+            "id": 3,
+            "category":"Audio",
+            "name": "headphone"
+        },
+        {
+            "id": 4,
+            "category":"Audio",
+            "name": "speaker"
+        },
+        {
+            "id": 5,
+            "category":"Haptic",
+            "name": "exoskeletons"
+        },
+        {
+            "id": 6,
+            "category":"Haptic",
+            "name": "glove"
+        },
+        {
+            "id": 7,
+            "category":"Haptic",
+            "name": "joysticks"
+        },
+        {
+            "id": 8,
+            "category":"Haptic",
+            "name": "fan"
+        },
+        {
+            "id": 9,
+            "category":"Smell",
+            "name": "olfactometers"
+        },
+        {
+            "id": 10,
+            "category":"Taste",
+            "name": "electronic vaporizers"
+        }
+    ]
+}
