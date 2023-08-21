@@ -1,0 +1,17 @@
+{
+  "deviceId": "fan",
+  "control": "",
+  "category": "Haptic",
+  "description": {
+    "properties": {
+      "type": "wind",
+      "measure": "BS",
+      "unit": "level",
+      "quantity": null
+    },
+    "pattern": {
+      "type": "custom",
+      "LengthMs": 1000
+    }
+  }
+}
