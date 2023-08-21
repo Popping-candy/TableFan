@@ -1,6 +1,6 @@
 extends Control
 
-var url = "http://192.168.179.133:8000/CreateEffect/fan"
+var url = "http://192.168.137.162:8000/CreateEffect/fan"
 var headers = [
 	"Content-Type: application/json",
 	"Accept: application/json",
@@ -33,7 +33,7 @@ func _onSubmit():
 	output.text += json_data["control"] + "\n"
 	output.text += json_data["category"] + "\n"
 	output.text += json_data["description"]["properties"]["type"] + "\n"
-	$HTTPRequest.request(url, headers, true, HTTPClient.METHOD_GET, json_str)
+	$HTTPRequest.request(url, headers, true, HTTPClient.METHOD_POST, json_str)
 	
 func _on_request_completed(result, response_code, headers, body):
 

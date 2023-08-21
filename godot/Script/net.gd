@@ -1,5 +1,5 @@
 extends CanvasLayer
-var url = "http://192.168.179.133:8000/createDeviceTable"
+var url = "http://192.168.137.162:8000/createDeviceTable"
 var headers = [
 	"Content-Type: application/json",
 	"Accept: application/json",
@@ -30,7 +30,7 @@ func _on_Button_pressed():
 		file.close()
 	else:
 		print("无法打开文件")
-	$HTTPRequest1.request(url, headers, true, HTTPClient.METHOD_GET, json_content)
+	$HTTPRequest1.request(url, headers, true, HTTPClient.METHOD_POST, json_content)
 
 func _on_Button2_pressed():
 	var inputLayer = load("res://inputLayer.tscn")

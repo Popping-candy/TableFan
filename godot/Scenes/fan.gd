@@ -2,7 +2,7 @@ extends Spatial
 
 signal rotat_changed(level)
 var btn_id = -1
-var url = "http://192.168.179.133:8000/fans"
+var url = "http://192.168.137.162:8000/fans"
 var headers = [
 	"Content-Type: application/json",
 	"Accept: application/json",
@@ -48,7 +48,7 @@ func SendDeploymentReq():
 	var effect_data = json_data["order"][btn_id]
 	var updated_json_str = JSON.print(effect_data)
 	print(updated_json_str)
-	$HTTPRequest.request(url, headers, true, HTTPClient.METHOD_GET, updated_json_str)
+	$HTTPRequest.request(url, headers, true, HTTPClient.METHOD_POST, updated_json_str)
 
 func on_request_completed(result, response_code, headers, body):
 	print(response_code)
